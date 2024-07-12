@@ -18,6 +18,7 @@ class Tablero(tk.Tk):
                 else:
                     color = "#8c564b"  # Color oscuro
                 self.Tablero.create_rectangle(j * 100, i * 100, (j + 1) * 100, (i + 1) * 100, fill=color)
+# Agregar fichas
 
     def add_game_tokens(self):
         # Fichas claras
