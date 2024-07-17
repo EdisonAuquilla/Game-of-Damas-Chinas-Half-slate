@@ -106,7 +106,7 @@ class Tablero(tk.Tk):
                 # Realizar captura
                 self.tablero.delete(ficha[0])
                 self.fichas.remove(ficha)
-                break  # Solo se puede capturar una ficha a la vez en un turno
+                break  # only one capture for shift
 
 if __name__ == "__main__":
     app = Tablero()
