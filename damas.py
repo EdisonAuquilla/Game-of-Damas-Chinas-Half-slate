@@ -1,4 +1,4 @@
-#importamos la biblioteca parte visual
+#import the  frameworks, parts visual
 import tkinter as tk
 
 class Tablero(tk.Tk):
@@ -11,7 +11,7 @@ class Tablero(tk.Tk):
         self.dibujar_cuadricula()
         self.agregar_fichas()
         self.ficha_seleccionada = None
-        self.turno = "negro"  # Comienza el jugador "negro"
+        self.turno = "negro"  # start the game "black"
         self.tablero.bind("<Button-1>", self.on_click)
 
     def dibujar_cuadricula(self):
